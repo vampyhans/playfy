@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 *{
+    font-family: 'Righteous', cursive;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-main{
-    min-height: 100vh;
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+body{
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.glass{
-    min-height: 80vh;
-    background: white;
-    width: 60%;
-    background: linear-gradient(to right bottom, rgba(255,255,255, 0.7), rgba(255,255,255,0.5));
-    border-radius: 2rem;
+.music-container{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px 0 rgba(112, 99, 99, 0.6);
 }
